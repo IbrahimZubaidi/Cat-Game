@@ -13,27 +13,14 @@ public class GamePage {
     JButton b;
     Rectangle catHitbox;
     Coin[] coins;
-    Image coinImage;
-    Image cat;
-    Image buildings;
-    Image trees;
-    Image ground;
-    Image finish;
-    int score = 0;
-    int catX = 200;  
-    int catY = 410;  
-    int buildingsX = 0;  
-    int buildingsY = 0;  
-    int treesX = 0;  
-    int treesY = 0;  
-    int groundX = 0; 
-    int groundY = 0; 
-    boolean isJumping = false;
-    int jumpHeight = 20; 
-    int jumpProgress = 0; 
-    boolean moveLeft = false;
-    boolean moveRight = false;
-    int id;
+    Image coinImage, cat, buildings, trees, ground, finish;
+    int id, score = 0;
+    int catX = 200, catY = 410;  
+    int buildingsX = 0, buildingsY = 0;  
+    int treesX = 0, treesY = 0;  
+    int groundX = 0, groundY = 0; 
+    int jumpHeight = 20, jumpProgress = 0;
+    boolean isJumping = false,  moveLeft = false, moveRight = false;
 
     // Constructor
     GamePage(int user_id) {
