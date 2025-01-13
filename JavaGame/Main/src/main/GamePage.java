@@ -176,7 +176,6 @@ public class GamePage {
         panel.requestFocusInWindow();
     }
     
-    // Update the cat's hitbox
     private void updateCatHitbox() {
         catHitbox = new Rectangle(catX, catY, 80, 75); // Match the cat's size
     }
